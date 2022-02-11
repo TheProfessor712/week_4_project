@@ -1,0 +1,24 @@
+---
+title: "The f*cking codebook"
+author: "TheProfessor712"
+date: "2/11/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+For you, the reader, is laid before you a dispassionate list of the variable
+names which I mustered together with the same minimal enthusiasm as one would
+during languors copulation with a fading romantic flame one intends to soon
+abandon. I will enthusiastically take the loss on this part of the project.
+Enjoy.
+
+```{r tidydata, echo=FALSE}
+features<-read.table("features.txt")
+features[,2]
+
+```
+
